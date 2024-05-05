@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Mono";
+    border: none;
+    outline:  none;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+
+
+body{
+
+    height: 100vh;
+    background: linear-gradient(90deg,black 50%,#ffb92a 50%);
+
+}
+
+h1{
+    font-size: 1.4rem;
+    font-weight: 900;
+   
+}
+
+.quiz-container{
+
+    flex-basis: 700px;
+    height: fit-content;
+
+}
+
+.form-select{
+
+    height: 60px;
+    width: 100%;
+    font-size: 1.3rem;
+
+}
+
+.btn{
+    
+    transition: 0.2s;
+    font-size: 1.3rem;
+    
+}
+
+.btn:active{
+    
+    scale: 1.1;
+    
+   
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    .form-select{
+
+        height: 50px;
+        width: 100%;
+        font-size: 1rem;
+        
+
+    }
+
+    .btn{
+
+        font-size: 1rem;
+        padding: 20px 30px;
+    }
+    
+}
